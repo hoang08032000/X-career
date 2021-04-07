@@ -16,7 +16,7 @@ function missingNumber(arr){
     if(arr.every(a) && arr.every(b) && arr.length>0 && arr.length<1000){
         for(let i =0; i<=arr.length; i++){
             if(!arr.includes(i)){
-                console.log(i)
+                return i;
             }
 
         }
