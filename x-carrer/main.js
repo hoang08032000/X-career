@@ -22,4 +22,4 @@ function missingNumber(arr){
         }
     }
 }
-missingNumber([1,0,3])
+
